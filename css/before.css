@@ -1,0 +1,49 @@
+.contacts-link::before {
+  content: "";
+  display: inline-flex;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts-link .email::before {
+  width: 16px;
+  height: 12px;
+  background-image: url(../images/envelope.png);
+}
+.contacts-link .tel::before {
+  width: 10px;
+  height: 16px;
+  background-image: url(../images/Vector.png);
+}
+
+.features-parts::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.features-parts:nth-child(1)::before {
+  background-image: url(../images/antenna\ 1.svg);
+  background-size: 70px 70px;
+}
+
+.features-parts:nth-child(2)::before {
+  background-image: url(../images/clock\ 1.svg);
+  background-size: 70px 70px;
+}
+
+.features-parts:nth-child(3)::before {
+  background-image: url(../images/diagram\ 1.svg);
+  background-size: 70px 70px;
+}
+
+.features-parts:nth-child(4)::before {
+  background-image: url(../images/astronaut\ 1.svg);
+  background-size: 70px 70px;
+}
