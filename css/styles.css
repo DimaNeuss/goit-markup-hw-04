@@ -134,7 +134,6 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   font-style: normal;
-  align-items: center;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -148,6 +147,7 @@ ul {
 .contacts.list {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 .contacts.list .contacts-link:not(:first-child) {
   margin-left: 50px;
