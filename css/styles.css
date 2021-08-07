@@ -148,7 +148,10 @@ ul {
 }
 
 /*footer*/
-
+.footer {
+  display: flex;
+  margin-left: auto;
+}
 .footer-logo {
   margin-bottom: 20px;
 }
@@ -171,6 +174,14 @@ ul {
 .contacts-footer-link:hover,
 .contacts-footer-link:focus {
   color: var(--accent-color);
+}
+.social-title {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 /* Hero*/
@@ -245,7 +256,17 @@ ul {
 .features .features-part:first-child {
   margin-left: 0px;
 }
-
+.icon-features {
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.icons {
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px;
+}
 /*чем мы занимаемся*/
 .work {
   padding-top: 0px;
@@ -300,6 +321,24 @@ ul {
 .text-specialist {
   padding: 30px 0;
   background-color: var(--whitе-color-text);
+}
+/*постоянные клиенты*/
+.client-group {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.client {
+  width: 170px;
+  height: 92px;
+}
+.icon-client {
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 /* портфолио*/
