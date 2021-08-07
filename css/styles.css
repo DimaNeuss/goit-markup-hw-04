@@ -152,7 +152,9 @@ ul {
 .contacts.list .contacts-link:not(:first-child) {
   margin-left: 50px;
 }
-
+.icon-contacts {
+  margin-right: 10px;
+}
 /*footer*/
 .footer-logo {
   margin-bottom: 20px;
