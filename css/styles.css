@@ -134,6 +134,9 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   font-style: normal;
+  display: flex;
+  align-items: center;
+  fill: var(--primary-text-color);
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -215,7 +218,6 @@ ul {
 }
 .footer-link-item:hover,
 .footer-link-item:focus {
-  border-radius: 50%;
   background-color: var(--accent-color);
 }
 .footer-icon-object {
@@ -366,7 +368,6 @@ ul {
 .social-link {
   display: flex;
   tab-size: 0;
-  padding: 16px 32px 0 32px;
 }
 .social-link-icon:not(:last-child) {
   margin-right: 10px;
@@ -378,19 +379,13 @@ ul {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  fill: var(--fill-icon);
+  padding: 16px 32px 0 32px;
 }
 .social-link-item:hover,
 .social-link-item:focus {
-  border-radius: 50%;
   background-color: var(--accent-color);
-}
-.icon-object:hover,
-.icon-object:focus {
   fill: var(--whitе-color-text);
-}
-
-.icon-object {
-  fill: var(--fill-icon);
 }
 /*постоянные клиенты*/
 .client-group {
@@ -448,6 +443,7 @@ ul {
   color: var(--whitе-color-text);
   background-color: var(--accent-color);
 }
+/*проекты*/
 .projects {
   color: var(--text-color);
   font-weight: 700;
@@ -491,7 +487,9 @@ ul {
   border-top: none;
   padding: 20px 24px;
 }
-.projects :hover,
-.projects :focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.projects-link :hover,
+.projects-link :focus {
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
