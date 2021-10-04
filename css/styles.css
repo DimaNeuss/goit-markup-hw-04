@@ -94,6 +94,7 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  margin-right: 93px;
 }
 .logo-header {
   color: var(--text-color);
@@ -123,7 +124,6 @@ ul {
 /* позиционирование nav */
 .site-nav {
   display: flex;
-  margin-left: 93px;
 }
 
 .site-nav-margin:not(:first-child) {
@@ -170,6 +170,9 @@ ul {
   line-height: 1.8;
   margin-top: 9px;
   display: inline-block;
+}
+.contacts-footer-item {
+  margin-top: 9px;
 }
 .address-link {
   color: var(--whitе-color-text);
@@ -358,7 +361,7 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 .text-specialist {
   padding: 30px 0;
