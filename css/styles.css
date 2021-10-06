@@ -94,6 +94,8 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+}
+.header-logo {
   margin-right: 93px;
 }
 .logo-header {
@@ -152,15 +154,15 @@ ul {
   margin-left: auto;
   align-items: center;
 }
-.contacts .contacts-link:not(:first-child) {
+.contacts .contacts-links:not(:first-child) {
   margin-left: 50px;
 }
 .icon-contacts {
   margin-right: 10px;
 }
 /*footer*/
-.footer-logo {
-  margin-bottom: 20px;
+.contacts-footer {
+  margin-top: 20px;
 }
 .contacts-footer-link {
   background: var(--background-color);
@@ -171,8 +173,8 @@ ul {
   margin-top: 9px;
   display: inline-block;
 }
-.contacts-footer-item {
-  margin-top: 9px;
+.contacts-footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .address-link {
   color: var(--whitе-color-text);
@@ -280,6 +282,10 @@ ul {
 }
 
 /*особенности*/
+.feature {
+  display: flex;
+  justify-content: space-between;
+}
 .features {
   display: flex;
   justify-content: space-between;
