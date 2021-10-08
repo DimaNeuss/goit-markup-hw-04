@@ -47,6 +47,7 @@ h3,
 h4,
 p {
   padding: 0px;
+  margin: 0px;
 }
 ul {
   padding: 0px;
@@ -139,6 +140,7 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   font-style: normal;
+  padding: 30px 0;
   display: flex;
   align-items: center;
   fill: var(--primary-text-color);
@@ -170,7 +172,6 @@ ul {
   font-size: 14px;
   font-style: normal;
   line-height: 1.8;
-  margin-top: 9px;
   display: inline-block;
 }
 .contacts-footer-item:not(:last-child) {
@@ -190,18 +191,20 @@ ul {
 
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 .social {
-  margin: 20px 0 0 70px;
+  margin-left: 70px;
 }
 .social-title {
   margin-bottom: 20px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--whitе-color-text);
+  margin: 0;
 }
 .footer-link {
   display: flex;
